@@ -1,0 +1,15 @@
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-basis: 18%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
